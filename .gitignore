@@ -1,0 +1,21 @@
+# 密钥：绝对不能提交
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# 运行产物
+*.log
+*.db
+jobs_data.json
