@@ -89,6 +89,6 @@ streamlit run app_ui.py
                         [投递Agent] → 记录投递历史
 ```
 
-## 📝 License
+###5.📸 效果截图
+<img width="2559" height="1337" alt="image" src="https://github.com/user-attachments/assets/f2855c8b-1cdc-45ad-b49f-062d1909b783" />
 
-MIT
