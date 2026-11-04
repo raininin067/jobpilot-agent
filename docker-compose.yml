@@ -1,0 +1,16 @@
+# JobPilot-Agent 一键启动
+# 准备：copy .env.example .env  并填入 DEEPSEEK_API_KEY
+# 启动：docker compose up -d --build
+# 访问：http://localhost:8501
+services:
+  jobpilot:
+    build: .
+    container_name: jobpilot-agent
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    volumes:
+      # 投递记录 / 分析历史 / RAG 向量库持久化在宿主目录，容器重建不丢数据
+      - ./data:/app/data
+    restart: unless-stopped

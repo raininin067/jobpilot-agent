@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jobpilot-agent"
+version = "2.0.0"
+description = "🧭 JobPilot-Agent — 基于 LangGraph 的多智能体秋招护航系统：岗位侦察 → 简历诊断 → 匹配打分 → 投递管家"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "raininin067" }]
+keywords = ["langgraph", "multi-agent", "rag", "streamlit", "求职", "秋招"]
+dependencies = [
+    "langgraph>=1.2.0",
+    "langchain-core>=1.6.0",
+    "langchain-openai>=1.7.0",
+    "langgraph-checkpoint-sqlite>=2.0.4",
+    "tavily-python>=0.8.0",
+    "chromadb>=1.5.0",
+    "streamlit>=1.40.0",
+    "pypdf>=6.0.0",
+    "requests>=2.31.0",
+]
+
+[project.optional-dependencies]
+# 向量检索需要本地 Embedding 模型（内含 torch，体积较大，所以单独放一个 extra）
+rag = ["sentence-transformers>=3.0.0"]
+test = ["pytest>=8.0.0"]
+
+[project.scripts]
+jobpilot = "jobpilot.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["jobpilot*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

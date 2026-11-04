@@ -1,0 +1,58 @@
+[
+  {
+    "id": "job_001",
+    "company": "字节跳动",
+    "title": "大模型应用开发实习生",
+    "city": "上海",
+    "requirements": "熟悉 Python，掌握 FastAPI 等 Web 框架。了解 RAG 检索增强生成架构，有 LangChain 或 LangGraph 开发经验。熟悉向量数据库如 ChromaDB 或 Milvus。有微调经验者优先。"
+  },
+  {
+    "id": "job_002",
+    "company": "腾讯",
+    "title": "AI Agent 研发工程师",
+    "city": "深圳",
+    "requirements": "负责 AI Agent 的核心架构设计与开发。要求精通 Python 编程，深入理解 Function Calling 原理。熟悉多智能体协同、MCP 协议、有实际落地项目经验。"
+  },
+  {
+    "id": "job_003",
+    "company": "阿里云",
+    "title": "后端开发实习生 (AI方向)",
+    "city": "杭州",
+    "requirements": "负责云原生 AI 平台的开发。要求熟练掌握 Python 或 Go，熟悉 Docker 容器化部署，对大模型 API 调用有基本认知。"
+  },
+  {
+    "id": "job_004",
+    "company": "小红书",
+    "title": "AI 全栈开发实习生",
+    "city": "北京",
+    "requirements": "参与企业内部 AI 工具开发。要求熟悉 Python，能独立完成前端 Streamlit/Gradio 与后端 FastAPI 的搭建，了解本地模型 Ollama 部署。"
+  },
+  {
+    "id": "job_005",
+    "company": "百度",
+    "title": "智能体平台研发实习生",
+    "city": "北京",
+    "requirements": "参与千帆 Agent 平台的开发。要求掌握 Python，理解提示词工程与 RAG 原理，熟悉大模型 API 调用与评测方法，有 LangChain/LangGraph 项目经验者优先。"
+  },
+  {
+    "id": "job_006",
+    "company": "美团",
+    "title": "AI 应用后端开发工程师",
+    "city": "北京",
+    "requirements": "负责外卖业务 AI 助手后端。要求熟练掌握 Python/Java，熟悉高并发服务架构，了解大模型推理服务与向量检索，有 MySQL/Redis 实战经验。"
+  },
+  {
+    "id": "job_007",
+    "company": "华为",
+    "title": "大模型工程化实习生",
+    "city": "深圳",
+    "requirements": "参与盘古大模型应用落地。要求理解 Transformers 架构与微调（LoRA/QLoRA）流程，掌握 Python，熟悉 PyTorch 与 HuggingFace 生态，有模型部署经验优先。"
+  },
+  {
+    "id": "job_008",
+    "company": "网易",
+    "title": "数据智能开发实习生",
+    "city": "杭州",
+    "requirements": "参与有道 AI 产品研发。要求熟悉 Python 与数据处理（Pandas），了解 LLM 应用开发与 RAG 流程，掌握 SQL，有 FastAPI 服务开发经验者优先。"
+  }
+]
